@@ -6,6 +6,8 @@
 	--primary-orange: #f9ab00;
 	--primary-blue: #0abab5;
 	--primary-dark: rgba(255, 255, 255, 0);
+	--title-dark: #333333;
+	--tomato-orange: #fc6647;
 }
 
 body {
@@ -46,18 +48,18 @@ nav ul li {
 
 .navbar-nav > li > a.active,
 .navbar-nav > li > a:active:focus {
-	border-top: 0.1875rem solid var(--primary-blue);
+	border-top: 0.1875rem solid var(--tomato-orange);
 }
 
 .navbar-nav > li > a:hover {
-	border-top: 0.1875rem solid var(--primary-blue);
+	border-top: 0.1875rem solid var(--tomato-orange);
 }
 
 /****************************** Background ***********************************/
 
 .header-wrapper {
 	position: relative;
-	background: url(background-img.png) no-repeat;
+	background: url(backgroundPhoto.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
 	height: 90vh;
@@ -73,6 +75,7 @@ nav ul li {
 }
 
 .main-info h1 {
-	color: black;
+	color: var(--title-dark);
 	text-transform: uppercase;
+	padding-top: 2.5rem;
 }
