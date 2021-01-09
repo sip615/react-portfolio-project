@@ -1,13 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap");
 
 :root {
 	--primary-white: #fff;
 	--primary-orange: #f9ab00;
+	--primary-blue: #0abab5;
 	--primary-dark: rgba(255, 255, 255, 0);
 }
 
 body {
-	font-family: "Open Sans" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 }
 
 /****************************** NAVBAR *************************************/
@@ -17,7 +19,7 @@ body {
 	/* height: 5.25rem; */
 }
 
-/*-------------- MENU LINKS ---------------*/
+/**************************** MENU LINKS ***********************************/
 
 nav a.nav-link {
 	font-size: 0.8rem;
@@ -44,18 +46,18 @@ nav ul li {
 
 .navbar-nav > li > a.active,
 .navbar-nav > li > a:active:focus {
-	border-top: 0.1875rem solid var(--primary-orange);
+	border-top: 0.1875rem solid var(--primary-blue);
 }
 
 .navbar-nav > li > a:hover {
-	border-top: 0.1875rem solid var(--primary-orange);
+	border-top: 0.1875rem solid var(--primary-blue);
 }
 
-/****************************** Background *************************************/
+/****************************** Background ***********************************/
 
 .header-wrapper {
 	position: relative;
-	background: url(background-image-programming.jpg) no-repeat;
+	background: url(background-img.png) no-repeat;
 	background-size: cover;
 	background-position: center;
 	height: 90vh;
@@ -71,6 +73,6 @@ nav ul li {
 }
 
 .main-info h1 {
-	color: var(--primary-white);
+	color: black;
 	text-transform: uppercase;
 }
