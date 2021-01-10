@@ -4,10 +4,11 @@
 :root {
 	--primary-white: #fff;
 	--primary-orange: #f9ab00;
-	--primary-blue: #0abab5;
+	--primary-blue: #5eb4ff;
 	--primary-dark: rgba(255, 255, 255, 0);
 	--title-dark: #333333;
 	--tomato-orange: #fc6647;
+	--primary-gray: #6c767d;
 }
 
 body {
@@ -15,6 +16,10 @@ body {
 }
 
 /****************************** NAVBAR *************************************/
+
+nav {
+	z-index: 2;
+}
 
 .logo {
 	width: 6.25rem;
@@ -46,6 +51,12 @@ nav ul li {
 	height: 6rem !important;
 }
 
+@media (max-width: 768px) {
+	.navbar-brand {
+		width: 7rem;
+	}
+}
+
 .navbar-nav > li > a.active,
 .navbar-nav > li > a:active:focus {
 	border-top: 0.1875rem solid var(--tomato-orange);
@@ -59,23 +70,79 @@ nav ul li {
 
 .header-wrapper {
 	position: relative;
-	background: url(backgroundPhoto.jpg) no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url(backgroundPhoto.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
 	height: 90vh;
 }
 
 .main-info {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 	font-family: "Open Sans" sans-serif;
+	z-index: 1;
 }
 
 .main-info h1 {
-	color: var(--title-dark);
+	color: var(--primary-blue);
 	text-transform: uppercase;
-	padding-top: 2.5rem;
+}
+
+/****************************** TYPED TEXT ********************************/
+
+.typed-text {
+	font-size: 2rem;
+	color: var(--primary-white);
+}
+
+@media (max-width: 768px) {
+	.main-info h1 {
+		font-size: 1.5rem !important;
+	}
+	.typed-text {
+		font-size: 1.3rem !important;
+	}
+}
+
+/************************* HEADER MAIN OFFER ******************************/
+
+.btn-main-offer {
+	border: 1px solid var(--tomato-orange);
+	text-transform: uppercase;
+	border-radius: 4px;
+	padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+	color: var(--primary-white);
+	margin: 2rem;
+	background-color: var(--tomato-orange);
+}
+
+.btn-main-offer:hover {
+	text-decoration: none;
+	background-color: coral;
+	color: var(--primary-white);
+	transition: 0.2s ease-in-out;
+}
+
+/************************* PARTICLES ******************************/
+
+.tsparticles-canvas-el {
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	z-index: 1;
+}
+
+@media (max-width: 768px) {
+	.particles-canvas {
+		display: none;
+	}
 }
