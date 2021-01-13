@@ -22,7 +22,7 @@ function App() {
               shape:{
                 type: "circle",
                 stroke:{
-                  width: 3, color: "#38f9fc"
+                  width: 3, color: "#fc6647"
                 }
               }
             }
