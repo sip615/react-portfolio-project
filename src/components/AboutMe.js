@@ -14,18 +14,17 @@ const AboutMe = () => {
                 <div className="col-lg-6 col-xm-12">
                     <h1 className="about-heading">About Me</h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis massa a mi interdum 
-                        ultrices consequat sed augue. Curabitur ultrices nunc quis metus porttitor, non euismod 
-                        urna dictum. Phasellus dictum, arcu sed lacinia pretium, tortor felis eleifend neque, non 
-                        cursus urna metus sed odio. Morbi ullamcorper consequat laoreet. Sed ut consequat neque. 
-                        Maecenas lacinia iaculis faucibus. Etiam quis orci vitae quam egestas luctus. Praesent eu 
-                        nulla imperdiet lacus commodo malesuada. Donec posuere augue eget nisl dignissim malesuada.
-
-                        Maecenas vestibulum euismod interdum. Ut at orci nec lectus semper mattis. Nullam gravida, 
-                        ligula ut finibus suscipit, neque nunc sodales elit, eu vulputate turpis eros lobortis nisl. 
-                        Quisque tincidunt ac urna facilisis gravida. Curabitur maximus lectus vel lorem euismod 
-                        dapibus. Aliquam erat volutpat. Vestibulum nec efficitur felis. Donec rutrum nibh vitae nisi 
-                        blandit, ac pretium sem luctus.
+                    After spending years pursuing a career in Behavioral Neurobiology, 
+                    a serendipitous internship opportunity at Harvard Law School offered 
+                    me a chance to delve into technology. I fell in love with dissecting 
+                    and building computer hardware and, eventually, software tools.
+                    </p>
+                    <p>
+                    Outside of my professional life, I have an interest and aptitude for 
+                    languages and travel. I am a big people-person, and love meeting interesting 
+                    individuals from all over the world. I am also an aspiring sketch artist, 
+                    which lends helpful to my penchant for experimenting with data visualization 
+                    styles. I can also fix cars, and am very good at general handyman projects.
                     </p>
                 </div>
             </div>
