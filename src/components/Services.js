@@ -10,7 +10,7 @@ const Services = () => {
             <div className="container">
                 <div className="row">
 {/*-----------------------------------------------------------------------------------*/}
-                    <div className="col-md-4 col-sm-6">
+                    <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="box">
                             <div className="circle"><FontAwesomeIcon className="icon" icon={faFileCode} size="2x"/></div>
                             <h3>Web Development</h3>
@@ -22,7 +22,7 @@ const Services = () => {
                     </div>
 {/*-----------------------------------------------------------------------------------*/}
 
-                    <div className="col-md-4 col-sm-6">
+                    <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="box">
                         <div className="circle"><FontAwesomeIcon className="icon" icon={faDesktop} size="2x"/></div>
                             <h3>Data Science</h3>
@@ -35,7 +35,7 @@ const Services = () => {
 
 {/*-----------------------------------------------------------------------------------*/}
 
-                    <div className="col-md-4 col-sm-6">
+                    <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="box">
                         <div className="circle"><FontAwesomeIcon className="icon" icon={faGoogle} size="2x"/></div>
                             <h3>SEO</h3>
