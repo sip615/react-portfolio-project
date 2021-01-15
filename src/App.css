@@ -37,6 +37,7 @@ nav a.nav-link {
 	letter-spacing: 0.0375rem;
 	cursor: pointer;
 	font-weight: bolder;
+	transition: 0.2s ease-in-out;
 }
 
 nav ul li {
@@ -216,6 +217,7 @@ nav ul li {
 	padding: 0.625rem;
 	margin-bottom: 1.875rem;
 	background: var(--primary-white);
+	transition: 0.3s ease-in-out;
 }
 
 .services .box:hover {
