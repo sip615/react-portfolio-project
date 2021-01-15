@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Services from "./components/Services";
 import { faCircle } from "@fortawesome/free-solid-svg-icons";
+import Experience from "./components/Experience";
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
       <Header/>
       <AboutMe/>
       <Services/>
+      <Experience/>
     </>
   );
 }
