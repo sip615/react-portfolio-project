@@ -66,7 +66,7 @@ nav ul li {
 }
 
 .navbar-nav > li > a.active,
-.navbar-nav > li > a:active:focus {
+.navbar-nav > li > a:focus {
 	border-top: 0.1875rem solid var(--tomato-orange);
 }
 
@@ -82,7 +82,7 @@ nav ul li {
 		url(backgroundPhoto.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 90vh;
+	height: 100vh;
 }
 
 .main-info {
@@ -127,7 +127,7 @@ nav ul li {
 	border: 1px solid var(--tomato-orange);
 	text-transform: uppercase;
 	font-weight: bold;
-	border-radius: 50px;
+	border-radius: 3px;
 	padding: 0.625rem 0.75rem 0.75rem 0.75rem;
 	color: var(--primary-white);
 	margin: 2rem;
@@ -376,10 +376,14 @@ nav ul li {
 	cursor: pointer;
 }
 
+.popupbox-wrapper {
+	margin-top: 7rem;
+}
+
 /*-----------------------Popup Box---------------------------*/
 
 .portfolio-image-popupbox {
-	width: 45rem;
+	width: 35rem;
 	padding: 0 0.5rem;
 }
 
@@ -522,4 +526,26 @@ textarea.form-control {
 	.contacts p {
 		padding: 0 0.4rem;
 	}
+}
+
+/*-----------------------FOOTER---------------------------*/
+.footer {
+	background: var(--primary-black);
+	color: var(--primary-dark-gray);
+	padding: 3rem;
+}
+
+.footer a {
+	text-decoration: none;
+	color: var(--primary-dark-gray);
+}
+
+.footer a:hover {
+	text-decoration: none;
+	color: var(--tomato-orange);
+	cursor: pointer;
+}
+
+.footer p {
+	margin-bottom: 0;
 }

@@ -9,11 +9,12 @@ import { faCircle } from "@fortawesome/free-solid-svg-icons";
 import Experience from "./components/Experience";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-      <Particles
+      {/* <Particles
         className="particles-canvas"
         params={{
             particles:{
@@ -29,7 +30,7 @@ function App() {
               }
             }
           }}
-      />
+      /> */}
       <Navbar/>
       <Header/>
       <AboutMe/>
@@ -37,6 +38,7 @@ function App() {
       <Experience/>
       <Portfolio/>
       <Contact/>
+      <Footer/>
     </>
   );
 }
