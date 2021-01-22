@@ -6,17 +6,17 @@ import { faDesktop, faFileCode } from '@fortawesome/free-solid-svg-icons';
 const Services = () => {
     return (
         <div className="services">
-        <h1 className="py-5">Areas of Expertise</h1>
+        <h1 className="py-5">Expertise</h1>
             <div className="container">
                 <div className="row">
 {/*-----------------------------------------------------------------------------------------------------------------------------*/}
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="box">
                             <div className="circle"><FontAwesomeIcon className="icon" icon={faFileCode} size="2x"/></div>
-                            <h3>Web Development</h3>
+                            <h3>Full-Stack Web Development</h3>
                             <p>
-                                I use a multifaceted approach to tackle your business's Front-End and Back-End development 
-                                needs. 
+                                I have experience and training in both front-end and back-end development. I can take a 
+                                full-stack application project from concept to reality.  
                             </p>
                         </div>
                     </div>
@@ -25,10 +25,10 @@ const Services = () => {
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="box">
                         <div className="circle"><FontAwesomeIcon className="icon" icon={faDesktop} size="2x"/></div>
-                            <h3>Data Science</h3>
+                            <h3>MERN stack</h3>
                             <p>
-                                Data driven decisions are the way of the future. I can help you choose, develop, 
-                                and train algorithms specific to your organization's optimization needs.
+                                I work primarily in the MERN development stack. I can develop your back-end using either MySQL or 
+                                MongoDB depending on project and overall scalability needs.
                             </p>
                         </div>
                     </div>
@@ -40,9 +40,7 @@ const Services = () => {
                         <div className="circle"><FontAwesomeIcon className="icon" icon={faGoogle} size="2x"/></div>
                             <h3>SEO</h3>
                             <p>
-                                You deserve to be recognized for what you have to offer. I can develop a strategy
-                                to get you to the front of search engine results, increase organic traffic, and be
-                                seen by more of your future customers.
+                                I can work with you to make sure your content is optimized for discoverability on the web.
                             </p>
                         </div>
                     </div>
