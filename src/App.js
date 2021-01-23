@@ -10,10 +10,11 @@ import Experience from "./components/Experience";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import HttpsRedirect from 'react-https-redirect';
 
 function App() {
   return (
-    <>
+    <HttpsRedirect>
       {/* <Particles
         className="particles-canvas"
         params={{
@@ -39,7 +40,7 @@ function App() {
       <Portfolio/>
       <Contact/>
       <Footer/>
-    </>
+    </HttpsRedirect>
   );
 }
 
