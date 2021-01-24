@@ -56,8 +56,12 @@ nav ul li {
 	border-top: 0.1875rem solid var(--blue-gray);
 }
 
-.bg-secondary {
+/* .bg-secondary {
 	background: #6c7c86 !important;
+} */
+
+.blue-gray {
+	background: var(--blue-gray);
 }
 
 .navbar-brand {
