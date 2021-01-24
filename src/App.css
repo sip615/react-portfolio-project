@@ -1,20 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap");
 
 :root {
 	--primary-white: #ffffff;
 	--primary-light-gray: #f4f4f4;
 	--primary-orange: #f9ab00;
 	--primary-blue: #42e3f5;
-	--primary-dark: rgb(52, 58, 64);
+	--primary-dark: rgb(52, 58, 70);
 	--title-dark: #333333;
 	--tomato-orange: #fc6647;
 	--primary-gray: #6c767d;
+	--blue-gray: #4f6777;
 	--primary-gray-2: #ccd1d9;
 	--primary-dark-gray: #666666;
 	--primary-red: #ef4035;
-	--primary-black: #000000;
+	/* --primary-black: #000000; */
+	--primary-black: #0c1d2b;
 	--primary-green: green;
+	--bright-orange: #fd9a4a;
 }
 
 body {
@@ -50,7 +53,11 @@ nav ul li {
 	margin-right: 0.75rem;
 	margin-left: 0.75rem;
 	color: var(--primary-white) !important;
-	border-top: 0.1875rem solid var(--primary-gray);
+	border-top: 0.1875rem solid var(--blue-gray);
+}
+
+.bg-secondary {
+	background: var(--blue-gray) !important;
 }
 
 .navbar-brand {
@@ -136,7 +143,7 @@ nav ul li {
 
 .btn-main-offer:hover {
 	text-decoration: none;
-	background-color: coral;
+	background-color: var(--bright-orange);
 	color: var(--primary-white);
 	transition: 0.2s ease-in-out;
 }
@@ -430,7 +437,7 @@ nav ul li {
 }
 
 .contacts h1 {
-	color: var(--tomato-orange);
+	color: var(--bright-orange);
 	padding: 1.3rem 0;
 	text-transform: uppercase;
 }
@@ -451,7 +458,7 @@ nav ul li {
 	border: 0;
 	border-bottom: 0.125rem solid var(--primary-dark-gray);
 	border-radius: 0;
-	color: var(--tomato-orange);
+	color: var(--bright-orange);
 	outline: 0 !important;
 	box-shadow: none !important;
 	margin-bottom: 1rem;
@@ -465,7 +472,7 @@ nav ul li {
 .contacts input:focus,
 .contacts textarea:focus {
 	background: transparent;
-	color: var(--tomato-orange);
+	color: var(--bright-orange);
 	border-bottom: 0.125rem solid var(--primary-dark-gray);
 }
 
