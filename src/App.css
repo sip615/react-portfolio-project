@@ -295,7 +295,7 @@ nav ul li {
 	width: 1rem;
 	height: 1rem;
 	border-radius: 50%;
-	border: 0.3125rem solid var(--primary-dark);
+	border: 0.3125rem solid var(--tomato-orange);
 	background: var(--tomato-orange);
 	margin-top: 0.625rem;
 	z-index: 3;

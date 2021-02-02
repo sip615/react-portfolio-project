@@ -100,7 +100,7 @@ const Experience = () => {
                     <div className="timeline-content">
                         <h3>2018-2019</h3>
                             <p>
-                                   Sudden loss in the family, bereavement and illness
+                                Bereavement and illness
                             </p>
                     </div>
                 </div>
